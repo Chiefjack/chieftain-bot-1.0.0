@@ -4,6 +4,7 @@ from discord.ext.commands import Bot
 from discord import ChannelType
 import asyncio
 import random
+import os
 
 bot = commands.Bot(command_prefix="c!")
 bot.remove_command("help")
